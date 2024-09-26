@@ -1,20 +1,9 @@
-rootProject.name = "revanced-patches-template"
+rootProject.name = "revanced-patches"
 
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/revanced/registry")
-            credentials {
-                username = providers.gradleProperty("gpr.user").orNull ?: System.getenv("GITHUB_ACTOR")
-                password = providers.gradleProperty("gpr.key").orNull ?: System.getenv("GITHUB_TOKEN")
-            }
-        }
+buildCache {
+    local {
+        isEnabled = "CI" !in System.getenv()
     }
 }
 
-plugins {
-    id("app.revanced.patches") version "1.0.0-dev.5"
-}
+include(":stub")
