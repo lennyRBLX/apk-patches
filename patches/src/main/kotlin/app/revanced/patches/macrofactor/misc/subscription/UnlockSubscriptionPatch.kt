@@ -1,4 +1,4 @@
-package app.revanced.patches.macrofactor.misc.pro
+package app.revanced.patches.macrofactor.misc.subscription
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
 import app.revanced.patcher.patch.bytecodePatch
 
