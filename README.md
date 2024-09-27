@@ -17,7 +17,8 @@ For a complete list of all available patches, visit [git/apk-patches/.../patches
 
 ## 🚀 How to get started
 
-Utilize the ReVanced organizations repositories, [ReVanced CLI](https://github.com/ReVanced/revanced-cli) or [ReVanced Manager](https://github.com/ReVanced/revanced-manager) to get started.
+Make sure to unsplit your APK with [AntiSplit-M](https://github.com/AbdurazaaqMohammed/AntiSplit-M) before proceeding.
+Download the latest [ReVanced CLI](https://github.com/ReVanced/revanced-cli) release, [patch the APK](https://github.com/ReVanced/revanced-cli/blob/main/docs/1_usage.md#-patch-an-app), then install the `xxxx_patched.apk` on the Android Emulator / Device you wish.
 
 ## 📚 Everything else
 
